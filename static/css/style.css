@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+html {
+        scroll-behavior: smooth;
+}
+
+body {
+        background-color: rgba(221, 231, 229, 1);
+        
+    }
+
+h1, h2 {
+    color: rgba(11, 91, 97, 1);
+
+}    
+
+#navigation {
+    /*     height: 1000px; */
+    }
+.section {
+   /*      height: 1000px; */
+        padding-top: 20px;    
+    }
