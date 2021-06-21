@@ -1,40 +1,68 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 @font-face {
     font-family: 'Roboto', sans-serif;
     src: url(../fonts/Roboto-Regular.ttf)
-    }
-
-html {
-        scroll-behavior: smooth;
-        font-family: 'Roboto', sans-serif;
-        color: rgba(11, 91, 97, 1);
-        font-weight: bold;
 }
+
+
 
 body {
-        background-color: rgba(221, 231, 229, 1);
-        
-    }
+    background-color: whitesmoke;
+   
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(11, 91, 97, 1);
+    font-weight: bold;
+}
 
+.firstBox {
+    background-color: rgba(221, 231, 229, 1);
+    margin: 100px 700px;
+    padding: 40px;
+   
 
+}
+.foto {
+    padding: auto;
+    border-radius: 50%;
+}
+h1, h2{
+    margin: 20px auto;
+  
+    text-align: center;
 
-
+}
 .WebDev {
-    color:rgba(18, 156, 165, 1);
-    
+    color: rgba(18, 156, 165, 1);
     font-size: smaller;
+    
+}
+
+p {
+ 
+    margin-top: 10px;
 }
 
 
 
 
-#navigation {
-    /*     height: 1000px; */
-    }
+
+
+
+
+ul {
+
+    margin-left: 20px;
+    list-style-type: none;
+}
+
 .section {
-   /*      height: 1000px; */
-        padding-top: 20px;    
-    }
+   
+    padding-top: 20px;
+    
+}
