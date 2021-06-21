@@ -7,7 +7,7 @@
 @font-face {
     font-family: "wSans";
     src: url(../fonts/WorkSans-VariableFont_wght.ttf);
-    
+
 }
 
 
@@ -17,7 +17,7 @@ body {
 
     scroll-behavior: smooth;
     font-family: 'wSans';
-    
+
     color: rgba(11, 91, 97, 1);
     font-weight: bold;
 }
@@ -27,17 +27,51 @@ body {
     margin: 50px auto;
     padding-top: 20px;
     width: 400px;
-
-
-
 }
 
 .foto {
     display: block;
     margin: 30px auto;
-   
+
     border-radius: 50%;
-    box-shadow: 5px 5px rgba(97, 102, 101, 0.3);
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2), 10px 10px 24px rgba(0, 0, 0, 0.19);
+
+}
+
+.firstStar {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    width: 64px;
+    height: 53px;
+    left: 1020px;
+    top: 80px;
+
+    background: rgba(18, 156, 165, 0.11);
+    transform: rotate(-10deg);
+}
+
+.secondStar {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    width: 64px;
+    height: 53px;
+    left: 730px;
+    top: 420px;
+
+    background: rgba(18, 156, 165, 0.11);
+    transform: rotate(-11.92deg);
+}
+
+.thirdStar {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    position: absolute;
+    width: 32px;
+    height: 26px;
+    left: 740px;
+    top: 470px;
+
+    background: rgba(18, 156, 165, 0.11);
+
 }
 
 h1,
@@ -47,6 +81,7 @@ h2 {
     font-weight: bolder;
 
 }
+
 .WebDev {
     color: rgba(18, 156, 165, 1);
     font-size: smaller;
@@ -77,13 +112,15 @@ h2 {
 .menu li {
     background-color: #129CA5;
     color: white;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 0;
     margin-right: 0;
     padding: 10px;
     padding-left: 30px;
 }
-.menu a:hover {
+
+.menu li:hover {
+    background-color: rgba(11, 91, 97, 1);
     color: white;
 }
 
@@ -91,20 +128,43 @@ h2 {
 
 
 
-#lebenslauf {
-    padding-top: 20px;
-    padding: 30px;
-    
+.lebenslauf {
+    /* padding-top: 20px; */
+    padding: 25px 30px 0 30px;
+
+}
+.lebenslauf div {
+    margin-top: 10px;
+
 }
 
-#lebenslauf span {
-    color: grey;
-    margin-top: 10px;
-} 
-#lebenslauf span+span{
-    color:black;
-}
-#lebenslauf a {
-    text-decoration: none;
+
+.lebenslauf span {
     color: rgba(11, 91, 97, 1);
+    margin-top: 10px;
 }
+.lebenslauf a {
+    text-decoration: none;
+    color:#129CA5;
+}
+
+.lebenslauf div:last-of-type {
+  
+    margin: 20px auto 0 30px;
+    
+
+}
+
+.lebenslauf a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.lebenslauf p {
+    color: grey;
+}
+
+#portfolio {
+    padding-top: 25px;
+    padding: 30px;
+
