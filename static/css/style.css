@@ -3,6 +3,27 @@
     padding: 0;
     margin: 0;
 }
+/* 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
 
 @font-face {
     font-family: "wSans";
@@ -13,28 +34,27 @@
 
 
 body {
-    background-color: whitesmoke;
-
+    /* background-color: whitesmoke; */
+    background-color: rgba(221, 231, 229, 1);
     scroll-behavior: smooth;
     font-family: 'wSans';
 
     color: rgba(11, 91, 97, 1);
     font-weight: bold;
 }
-
+/* 
 .firstBox {
     background-color: rgba(221, 231, 229, 1);
-    margin: 50px auto;
-    padding-top: 20px;
-    width: 400px;
-}
-
+   /*  margin:auto; */
+    /* padding-top: 20px; */
+   /*  width: 400px; */
+ 
 .foto {
     display: block;
-    margin: 30px auto;
+    margin: 40px auto 20px;
 
     border-radius: 50%;
-    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2), 10px 10px 24px rgba(0, 0, 0, 0.19);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 
 }
 
@@ -43,8 +63,8 @@ body {
     position: absolute;
     width: 64px;
     height: 53px;
-    left: 1020px;
-    top: 80px;
+    left: 75%;
+    top: 3%;
 
     background: rgba(18, 156, 165, 0.11);
     transform: rotate(-10deg);
@@ -55,8 +75,8 @@ body {
     position: absolute;
     width: 64px;
     height: 53px;
-    left: 730px;
-    top: 420px;
+    left: 7%;
+    top: 38%;
 
     background: rgba(18, 156, 165, 0.11);
     transform: rotate(-11.92deg);
@@ -67,18 +87,19 @@ body {
     position: absolute;
     width: 32px;
     height: 26px;
-    left: 740px;
-    top: 470px;
+    left: 5%;
+    top: 45%;
 
     background: rgba(18, 156, 165, 0.11);
+    transform: rotate(10deg);
 
 }
 
 h1,
 h2 {
-    margin: 10px auto;
+   /*  margin: auto; */
     text-align: center;
-    font-weight: bolder;
+  /*   font-weight: bolder; */
 
 }
 
@@ -112,11 +133,9 @@ h2 {
 .menu li {
     background-color: #129CA5;
     color: white;
-    margin-top: 3px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 10px;
-    padding-left: 30px;
+    margin: 3px 0 0;
+    padding: 10px 10px 10px 30px;
+    
 }
 
 .menu li:hover {
@@ -164,7 +183,17 @@ h2 {
     color: grey;
 }
 
-#portfolio {
-    padding-top: 25px;
-    padding: 30px;
 
+.portfolio {
+    /* padding-top: 20px; */
+    padding: 25px 30px 0 30px;
+    }
+
+.portfolio img {
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2), 10px 10px 24px rgba(0, 0, 0, 0.19);
+
+
+}
