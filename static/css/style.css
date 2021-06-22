@@ -52,10 +52,15 @@ body {
 .foto {
     display: block;
     margin: 40px auto 20px;
+    width: 250px;
 
     border-radius: 50%;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 
+}
+.foto:hover {
+    margin: 43px auto 17px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .firstStar {
@@ -147,49 +152,49 @@ h2 {
 
 
 
-.lebenslauf {
+#lebenslauf {
     /* padding-top: 20px; */
     padding: 25px 30px 0 30px;
 
 }
-.lebenslauf div {
+#lebenslauf div {
     margin-top: 10px;
 
 }
 
 
-.lebenslauf span {
+#lebenslauf span {
     color: rgba(11, 91, 97, 1);
     margin-top: 10px;
 }
-.lebenslauf a {
+#lebenslauf a {
     text-decoration: none;
     color:#129CA5;
 }
 
-.lebenslauf div:last-of-type {
+#lebenslauf div:last-of-type {
   
     margin: 20px auto 0 30px;
     
 
 }
 
-.lebenslauf a:hover {
+#lebenslauf a:hover {
     text-decoration: none;
     color:white;
 }
 
-.lebenslauf p {
+#lebenslauf p {
     color: grey;
 }
 
 
-.portfolio {
+#portfolio {
     /* padding-top: 20px; */
     padding: 25px 30px 0 30px;
     }
 
-.portfolio img {
+#portfolio img {
     display: block;
     margin: auto;
     border-radius: 5%;
