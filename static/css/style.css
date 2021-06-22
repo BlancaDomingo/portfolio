@@ -189,16 +189,39 @@ h2 {
 }
 
 
+
+
+
+/* portfolio */
+
+
+
+
+
+
 #portfolio {
     /* padding-top: 20px; */
     padding: 25px 30px 0 30px;
     }
 
 #portfolio img {
+    width: 300px;
     display: block;
-    margin: auto;
-    border-radius: 5%;
-    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2), 10px 10px 24px rgba(0, 0, 0, 0.19);
-
-
+    margin: 20px auto 20px;
+    border-radius: 3%;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 }
+
+#portfolio img:hover {
+    margin: 22px auto 18px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+#portfolio p {
+    margin-bottom: 20px;
+}
+
+
+/* kontakt */
+
+
+#kontakt
