@@ -2,7 +2,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} 
+
+
 /* 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -64,14 +66,16 @@ body {
 }
 
 .firstStar {
+    
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     position: absolute;
     width: 64px;
     height: 53px;
     left: 75%;
     top: 3%;
-
-    background: rgba(18, 156, 165, 0.11);
+    background:#17C9D4;
+    
+    /* background: rgba(18, 156, 165, 0.11); */
     transform: rotate(-10deg);
 }
 
@@ -83,7 +87,7 @@ body {
     left: 7%;
     top: 38%;
 
-    background: rgba(18, 156, 165, 0.11);
+    background:#17C9D4;
     transform: rotate(-11.92deg);
 }
 
@@ -95,7 +99,7 @@ body {
     left: 5%;
     top: 45%;
 
-    background: rgba(18, 156, 165, 0.11);
+    background:#17C9D4;
     transform: rotate(10deg);
 
 }
@@ -175,17 +179,20 @@ h2 {
 #lebenslauf div:last-of-type {
   
     margin: 20px auto 0 30px;
+    text-align: center;
     
 
 }
 
 #lebenslauf a:hover {
-    text-decoration: none;
+  
+  
     color:white;
 }
 
 #lebenslauf p {
     color: grey;
+   
 }
 
 
@@ -218,10 +225,34 @@ h2 {
 }
 #portfolio p {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
 /* kontakt */
+#kontakt {
+  /* padding-top: 20px; */
+  padding: 25px 30px 0 30px;
+  }
 
 
-#kontakt
+#kontakt a {
+  vertical-align:text-bottom;
+  font-size:large;
+  display: inline;
+  margin: 20px 30px 20px;
+  text-decoration: none;
+  color:rgba(11, 91, 97, 1);
+
+}
+#kontakt i {
+font-size:xx-large;
+ height: 30px;
+  margin: 10px;
+  text-decoration: none;
+    color:#17C9D4;
+
+}
+#kontakt a i:hover {
+  font-weight: bolder;
+}
