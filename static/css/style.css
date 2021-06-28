@@ -59,7 +59,7 @@ body {
     width: 3.5em;
     height: 3em;
     left: 7%;
-    top: 38%;
+    top: 45%;
     background: #17C9D4;
     transform: rotate(-11.92deg);
     z-index: -1;
@@ -73,7 +73,7 @@ body {
     width: 2em;
     height: 1.5em;
     left: 5%;
-    top: 45%;
+    top: 52%;
     background: #17C9D4;
     transform: rotate(10deg);
     z-index: -1;
@@ -127,12 +127,6 @@ h2 {
 }
 
 
-/* #lebenslauf {
-  
-  padding: 1.5em 1.5em 0;
-  margin-top: 1em;
-
-} */
 
 #lebenslauf div {
     margin-top: 1em;
