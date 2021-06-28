@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -11,31 +12,21 @@
 
 }
 
-
-
 body {
-    /* background-color: whitesmoke; */
-    background-color: rgba(221, 231, 229, 1);
-    /* background: linear-gradient(white rgba(221, 231, 229, 1) ); */
-    scroll-behavior: smooth;
-    font-family: 'wSans';
 
+    background-color: rgba(221, 231, 229, 1);
+    font-family: 'wSans';
     color: rgba(11, 91, 97, 1);
     font-weight: bold;
+  
 
 }
 
-/* 
-.firstBox {
-    background-color: rgba(221, 231, 229, 1);
-   /*  margin:auto; */
-/* padding-top: 20px; */
-/*  width: 400px; */
-
 .foto {
     display: block;
-    margin: 40px auto 20px;
-    width: 250px;
+    margin: 3em auto 2em;
+    /*  width: 250px; */
+    width: 65%;
 
     border-radius: 50%;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
@@ -43,7 +34,7 @@ body {
 }
 
 .foto:hover {
-    margin: 43px auto 17px;
+    margin: 3.5em auto 1.5em;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -51,65 +42,57 @@ body {
 
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     position: absolute;
-    width: 64px;
-    height: 53px;
+   /*  width: 64px;
+    height: 53px; */
+    width: 3.5em;
+    height: 3em;
     left: 75%;
     top: 3%;
     background: #17C9D4;
-
-    /* background: rgba(18, 156, 165, 0.11); */
+    z-index: -1;   
     transform: rotate(-10deg);
 }
 
 .secondStar {
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     position: absolute;
-    width: 64px;
-    height: 53px;
+    width: 3.5em;
+    height: 3em;
     left: 7%;
     top: 38%;
-
     background: #17C9D4;
     transform: rotate(-11.92deg);
+    z-index: -1;
 }
 
 .thirdStar {
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
     position: absolute;
-    width: 32px;
-    height: 26px;
+   /*  width: 32px;
+    height: 26px; */
+    width: 2em;
+    height: 1.5em;
     left: 5%;
     top: 45%;
-
     background: #17C9D4;
     transform: rotate(10deg);
+    z-index: -1;
 
 }
 
 h1,
 h2 {
-    /*  margin: auto; */
     text-align: center;
-    /*   font-weight: bolder; */
-
 }
 
 .WebDev {
     color: rgba(18, 156, 165, 1);
     font-size: smaller;
-
-
 }
 
-
-
-
-
 .menu {
-    margin-top: 30px;
+    margin-top: 2em;
     list-style-type: none;
-
-
 }
 
 
@@ -124,8 +107,10 @@ h2 {
 .menu li {
     background-color: #129CA5;
     color: white;
-    margin: 3px 0 0;
-    padding: 10px 10px 10px 30px;
+    margin-top: 0.1em;
+   /*  margin: 0.1em 0; */
+    /* padding: 10px 10px 10px 30px; */
+    padding: 0.5em 1.5em;
 
 }
 
@@ -135,24 +120,29 @@ h2 {
 }
 
 
-
-
-
-#lebenslauf {
-    /* padding-top: 20px; */
-    padding: 25px 30px 30px 30px;
+.styleAbsch {
+  padding: 1.5em 1.5em 0;
+  margin-top: 1em;
 
 }
 
+
+/* #lebenslauf {
+  
+  padding: 1.5em 1.5em 0;
+  margin-top: 1em;
+
+} */
+
 #lebenslauf div {
-    margin-top: 10px;
+    margin-top: 1em;
 
 }
 
 
 #lebenslauf span {
     color: rgba(11, 91, 97, 1);
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 #lebenslauf a {
@@ -161,65 +151,47 @@ h2 {
 }
 
 #lebenslauf div:last-of-type {
-
-    margin: 20px auto 0 30px;
+    margin: 1.5em auto 0;
     text-align: center;
-
-
 }
 
 #lebenslauf a:hover {
-
-
     color: white;
 }
 
 #lebenslauf p {
     color: grey;
-
 }
-
-
-
-
 
 /* portfolio */
 
 
-
-
-
-
-#portfolio {
-    /* padding-top: 20px; */
-    padding: 25px 30px 0 30px;
-}
-
 #portfolio img {
-    width: 300px;
+    /*  width: 300px; */
+    width: 100%;
     display: block;
-    margin: 20px auto 20px;
+    margin: 2em 0 2em;
     border-radius: 3%;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 }
 
 #portfolio img:hover {
-    margin: 22px auto 18px;
+    margin: 2.5em 0 1.5em;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 #portfolio p {
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     text-align: center;
 }
 
 /* skills */
 
-#skills {
+/* #skills {
     padding: 20px 30px 0 30px;
-}
+} */
 
-/* no funiona los dos siguientes */
+
 .skillsCont {
 
     width: 100%;
@@ -282,10 +254,11 @@ h2 {
 
 
 /* kontakt */
-#kontakt {
-    /* padding-top: 20px; */
+
+/* #kontakt {
+   
     padding: 20px 30px;
-}
+} */
 
 #kontakt h2 {
     margin-top: 10px;
