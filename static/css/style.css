@@ -15,14 +15,14 @@
 
 body {
     /* background-color: whitesmoke; */
-    background-color: rgba(221, 231, 229, 1); 
-/* background: linear-gradient(white rgba(221, 231, 229, 1) ); */
+    background-color: rgba(221, 231, 229, 1);
+    /* background: linear-gradient(white rgba(221, 231, 229, 1) ); */
     scroll-behavior: smooth;
     font-family: 'wSans';
 
     color: rgba(11, 91, 97, 1);
     font-weight: bold;
-    
+
 }
 
 /* 
@@ -219,13 +219,66 @@ h2 {
     padding: 20px 30px 0 30px;
 }
 
+/* no funiona los dos siguientes */
 .skillsCont {
+
     width: 100%;
     height: 10px;
+    padding: 0;
     margin: 15px 20px 15px 0;
     border-radius: 5px;
     border: cadetblue 1px solid;
+
 }
+
+.skillsContHtm {
+
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #17C9D4;
+}
+
+.skillsContCss {
+
+    width: 75%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #17C9D4;
+}
+
+.skillsContJav {
+
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #17C9D4;
+}
+
+.skillsContRea {
+
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #17C9D4;
+}
+
+.skillsContPhp {
+
+    width: 95%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #17C9D4;
+}
+
+.skillsContSym {
+
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #17C9D4;
+}
+
 
 
 /* kontakt */
@@ -234,22 +287,26 @@ h2 {
     padding: 20px 30px;
 }
 
+#kontakt h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 
 #kontakt a {
 
     font-size: large;
     display: inline;
-    
     margin: 20px 30px 20px;
     text-decoration: none;
     color: rgba(11, 91, 97, 1);
-   
+
 
 }
 
 #kontakt i {
-    font-size:xx-large;
+    font-size: xx-large;
     height: 30px;
     margin: 10px;
     text-decoration: none;
