@@ -175,33 +175,31 @@ h2 {
 
 .menu {
     margin-top: 2em;
-    list-style-type: none;
+
 }
 
 
 .menu a {
     text-decoration: none;
-    color: #DDE7E5;
-    font-size: larger;
-    font-weight: bold;
 }
 
 
-.menu li {
+.menu div {
+    width: 100%;
+    color: #DDE7E5;
+    font-size: larger;
+    font-weight: bold;
     background-color: #129CA5;
-    color: white;
     margin-top: 0.1em;
-    /*  margin: 0.1em 0; */
-    /* padding: 10px 10px 10px 30px; */
     padding: 0.5em 1.5em;
 
 }
 
-.menu li:hover {
+.menu div:hover {
     background-color: rgba(11, 91, 97, 1);
     color: white;
-}
 
+}
 
 .styleAbsch {
     padding: 1.5em 1.5em 0;
