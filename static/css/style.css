@@ -12,15 +12,30 @@
 
 }
  */
-
+/* 
+ background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+background-size: 100px 50px;
+ */
 
 
 body {
 
-    background-color: rgba(221, 231, 229, 1);
+   /*  background-color: rgba(221, 231, 229, 1); */
     /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
     /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
     /* font-family: 'wSans'; */
+    background-color:rgba(221, 231, 229, .5);
+    background-image: radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229,.5) 99%),
+    radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229,.5) 99%);
+    background-size:60px 60px;
+    background-position:0 0, 30px 30px;
+
     font-family: 'Roboto', sans-serif;
     color: rgba(11, 91, 97, 1);
     font-weight: bold;
@@ -35,11 +50,18 @@ body {
     }
 
     main {
-        background-color: rgba(221, 231, 229, 1);
-        width: 60%;
+       /*  background-color: rgba(221, 231, 229, 1); */
+        width: 50%;
         margin: 3em auto;
         padding-top: 2em;
         border-radius: 2em;
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
+
+        background-color:rgba(221, 231, 229, 1); 
+        background-image: radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229,.5) 99%),
+        radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229,.5) 99%);
+        background-size:60px 60px;
+        background-position:0 0, 30px 30px;
     }
 
 }
