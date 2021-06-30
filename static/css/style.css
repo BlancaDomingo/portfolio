@@ -252,7 +252,7 @@ h2 {
 }
 
 #portfolio img:hover {
-    margin: 2.5em 0 1.5em;
+    margin: 2.5em 0 0.5em;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -260,6 +260,8 @@ h2 {
     margin-bottom: 1em;
     text-align: center;
 }
+
+/* .................skills........... */
 
 
 #skills h2 {
@@ -323,10 +325,17 @@ h2 {
     border-radius: 0.25em;
     background-color: #17C9D4;
 }
+.skillsContPho {
+
+    width: 85%;
+    height: 100%;
+    border-radius: 0.25em;
+    background-color: #17C9D4;
+}
 
 
 
-/* kontakt */
+/* ..........kontakt ......*/
 
 #kontakt {
     margin-bottom: 2em;
