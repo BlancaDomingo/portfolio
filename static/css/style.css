@@ -26,15 +26,15 @@ background-size: 100px 50px;
 
 body {
 
-   /*  background-color: rgba(221, 231, 229, 1); */
+    /*  background-color: rgba(221, 231, 229, 1); */
     /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
     /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
     /* font-family: 'wSans'; */
-    background-color:rgba(221, 231, 229, .5);
-    background-image: radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229,.5) 99%),
-    radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229,.5) 99%);
-    background-size:60px 60px;
-    background-position:0 0, 30px 30px;
+    background-color: rgba(221, 231, 229, .5);
+    background-image: radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229, .5) 99%),
+        radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229, .5) 99%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
 
     font-family: 'Roboto', sans-serif;
     color: rgba(11, 91, 97, 1);
@@ -47,23 +47,20 @@ body {
     body {
         background-color: white;
         top: 0;
+        background-size: 40px 40px;
+        background-position: 0 0, 20px 20px;
     }
 
     main {
-       /*  background-color: rgba(221, 231, 229, 1); */
+        /*  background-color: rgba(221, 231, 229, 1); */
         width: 50%;
         margin: 3em auto;
         padding-top: 2em;
         border-radius: 2em;
         box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
+        background-color: rgba(221, 231, 229, 1);
 
-        background-color:rgba(221, 231, 229, 1); 
-        background-image: radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229,.5) 99%),
-        radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229,.5) 99%);
-        background-size:60px 60px;
-        background-position:0 0, 30px 30px;
     }
-
 }
 
 .foto {
@@ -76,9 +73,10 @@ body {
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 
 }
+
 @media screen and (min-width: 780px) {
     .foto {
-        width: 33%;
+        width: 40%;
 
     }
 
@@ -88,6 +86,7 @@ body {
     margin: 3.5em auto 1.5em;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
+
 /* 
 .firstStar {
 
