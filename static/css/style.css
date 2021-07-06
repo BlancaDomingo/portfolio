@@ -384,3 +384,52 @@ h2 {
 #kontakt i:hover {    
     font-size: inherit;
 } */
+
+/* .......forms...................... */
+
+.formular {
+    
+    margin-bottom: 1em;
+    padding: 1.5em;
+}
+
+.formular h2 {
+   
+    margin-bottom: 1em;
+}
+.formular label {
+    display: block;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+.formular input {
+    width: 100%;
+    height: 2em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 3px;
+  
+}
+.formular textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+}
+.formular button {
+    margin: 1em 0 1em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
+    background-color: #129CA5;
+    color: white;
+    font-weight: bold;
+}
+.formular button:hover {
+    margin: 1.3em 0 0.7em ;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+    background-color:rgba(11, 91, 97, 1);
+}

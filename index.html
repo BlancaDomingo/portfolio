@@ -12,6 +12,12 @@
 
     <!-- viewport por defecto...lo leen solo los móviles, se-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--  iconos -->
+    <script src="https://kit.fontawesome.com/1dd960307c.js"></script>
+
+
     <!-- standards ? -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -22,8 +28,7 @@
 
     <!--  css -->
     <link rel="stylesheet" href="./static/css/style.css">
-    <!--  iconos -->
-    <script src="https://kit.fontawesome.com/1dd960307c.js" crossorigin="anonymous"></script>
+    <!--  crossorigin="anonymous"></script> -->
 
     <!-- favicon https://realfavicongenerator.net/ -->
 
@@ -53,35 +58,37 @@
 
 <body>
     <main>
-        <a href="#portfolio" title="Blanca Domingo - Web Developer - Portfolio"><img class="foto"
-                src="./static/img/blancaPetr.jpg" alt="lachendes Blanca Domingo Photo auf petrol weiß "></a>
-        <!--   <span class="firstStar"></span>
+        <section>
+            <a href="#portfolio" title="Blanca Domingo - Web Developer - Portfolio"><img class="foto"
+                    src="./static/img/blancaPetr.jpg" alt="lachendes Blanca Domingo Photo auf petrol weiß "></a>
+            <!--   <span class="firstStar"></span>
         <span class="secondStar"></span>
         <span class="thirdStar"></span> -->
-        <h1>
-            <p>Blanca Domingo</p>
-            <p class="WebDev">Full Stack<br>Web Developer</p>
-        </h1>
+            <h1>
+                <p>Blanca Domingo</p>
+                <p class="WebDev">Full Stack<br>Web Developer</p>
+            </h1>
 
 
 
-        <div class="menu">
-            <a href="#lebenslauf">
-                <div>Lebenslauf</div>
-            </a>
-            <a href="#portfolio">
-                <div>Portfolio</div>
-            </a>
-            <a href="#skills">
-                <div>Skills</div>
-            </a>
-            <a href="#kontakt">
-                <div>Kontakt</div>
-            </a>
+            <nav class="menu">
+                <a href="#lebenslauf">
+                    <div>Lebenslauf</div>
+                </a>
+                <a href="#portfolio">
+                    <div>Portfolio</div>
+                </a>
+                <a href="#skills">
+                    <div>Skills</div>
+                </a>
+                <a href="#kontakt">
+                    <div>Kontakt</div>
+                </a>
 
 
-        </div>
-        <div class="styleAbsch" id="lebenslauf">
+            </nav>
+        </section>
+        <section class="styleAbsch" id="lebenslauf">
             <h2>Lebenslauf</h2>
             <div>
                 <span>Weiterbildung Web Developer </span>
@@ -114,9 +121,9 @@
                 <a href="./static/downloads/LebenslaufBlancaDomingo.pdf" download="cvBlancaDomingo.pdf"
                     title="cvBlancaDomingo.pdf">Lebenslauf runterladen (PDF)</a>
             </div>
-        </div>
+        </section>
 
-        <div class="styleAbsch" id="portfolio">
+        <section class="styleAbsch" id="portfolio">
             <h2>Portfolio</h2>
             <a href="https://digitalcareerinstitute.org/" target="_blank"><img src="./static/img/curiosa.jpg"
                     alt="bunte Curiosa Pérez Webseite"></a>
@@ -125,9 +132,9 @@
                     alt="bunte Lolabeads Webseite"></a>
 
             <p>Lolabeads Webseite 2013</p>
-        </div>
+        </section>
 
-        <div class="styleAbsch" id="skills">
+        <section class="styleAbsch" id="skills">
             <h2>Skills</h2>
             <p>HTML</p>
             <div class="skillsCont">
@@ -158,9 +165,9 @@
                 <div class=skillsContPho></div>
             </div>
 
-        </div>
+        </section>
 
-        <div class="styleAbsch" id="kontakt">
+        <section class="styleAbsch" id="kontakt">
             <h2>Meine Kontaktdaten</h2>
 
 
@@ -184,7 +191,24 @@
                         class="fas fa-envelope-square"></i>blaaanca@yahoo.es</a>
             </div>
 
-        </div>
+        </section>
+        <section class="formular">
+            <h2>Kontaktformular</h2>
+            <form action="https://formspree.io/f/xeqvzwea" method="post">
+                <div>
+                    <label for="idEmail">Email:*</label>
+                    <input id="idEmail" name="_replyto" type="email" required>
+                </div>
+                <div>
+                    <label 
+                    for="idAnfrage">Ihre Anfrage:*</label>
+                    <textarea name="message" id="idAnfrage" 
+                        placeholder=" ..." required></textarea>
+                </div>
+                <button type="submit">Anfrage abschicken</button>
+
+            </form> 
+        </section>
 
     </main>
 
