@@ -5,31 +5,10 @@
     scroll-behavior: smooth;
 }
 
-/* 
-@font-face {
-    font-family: "wSans";
-    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
-
-}
- */
-/* 
- background-color:silver;
-background-image:
-radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
-radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
-radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
-radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
-radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
-background-size: 100px 50px;
- */
-
 
 body {
 
-    /*  background-color: rgba(221, 231, 229, 1); */
-    /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
-    /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
-    /* font-family: 'wSans'; */
+
     background-color: rgba(221, 231, 229, .5);
     background-image: radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229, .5) 99%),
         radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229, .5) 99%);
@@ -43,26 +22,6 @@ body {
 
 }
 
-@media screen and (min-width: 780px) {
-    body {
-        background-color: white;
-        top: 0;
-        background-size: 40px 40px;
-        background-position: 0 0, 20px 20px;
-    }
-
-    main {
-        /*  background-color: rgba(221, 231, 229, 1); */
-        width: 50%;
-        margin: 3em auto;
-        padding-top: 2em;
-        border-radius: 2em;
-        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
-        background-color: rgba(221, 231, 229, 1);
-
-    }
-}
-
 .foto {
     display: block;
     margin: 3em auto 2em;
@@ -74,13 +33,7 @@ body {
 
 }
 
-@media screen and (min-width: 780px) {
-    .foto {
-        width: 40%;
 
-    }
-
-}
 
 .foto:hover {
     margin: 3.5em auto 1.5em;
@@ -129,36 +82,7 @@ body {
 
 }
  */
-/* 
-@media screen and (min-width: 780px) {
 
-    .firstStar {
-       
-        left: 65%;
-        top: 15%;
-        z-index: 1;
-    }
-
-    .secondStar {
-     
-        left: 27%;
-        top: 65%;
-        z-index: 1;
-
-    }
-
-    .thirdStar {
-       
-        left: 25%;
-        top: 72%;
-
-        z-index: 1;
-
-    }
-}
- 
- 
- */
 h1,
 h2 {
     font-family: 'Archivo', sans-serif;
@@ -378,12 +302,6 @@ h2 {
 
 }
 
-/* #kontakt a:hover {    
-    font-size: larger;
-}
-#kontakt i:hover {    
-    font-size: inherit;
-} */
 
 /* .......forms...................... */
 
@@ -432,4 +350,48 @@ h2 {
     margin: 1.3em 0 0.7em ;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
     background-color:rgba(11, 91, 97, 1);
+}
+
+/* ............breackpoints........... */
+
+
+@media screen and (min-width: 577px) {
+    body {
+        background-color: white;
+        top: 0;
+        background-size: 40px 40px;
+        background-position: 0 0, 20px 20px;
+    }
+
+    main {
+        
+        width: 80%;
+        margin: 3em auto;
+        padding-top: 2em;
+        border-radius: 2em;
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
+        background-color: rgba(221, 231, 229, 1);
+
+    }
+    .foto {
+        width: 40%;
+
+    }
+    .menu {
+        
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .menu a {
+        width: 24.8%;
+    }
+    .menu div {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 769px) {
+    main {
+        width: 60%;
+    }
 }
