@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    
 }
 
 
@@ -24,9 +25,9 @@ body {
 
 .foto {
     display: block;
-    margin: 3em auto 2em;
+    margin: 3em auto 0.5em;
     /*  width: 250px; */
-    width: 50%;
+    width: 60%;
 
     border-radius: 50%;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
@@ -89,8 +90,18 @@ h2 {
 
     /* font-family: 'Roboto', sans-serif; */
     text-align: center;
+    
 
 }
+h1 {
+    text-align: left;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 1.7em;
+
+}
+
+
 
 .WebDev {
     color: rgba(18, 156, 165, 1);
@@ -99,6 +110,7 @@ h2 {
 
 .menu {
     margin-top: 2em;
+   
 
 }
 
@@ -361,34 +373,89 @@ h2 {
         top: 0;
         background-size: 40px 40px;
         background-position: 0 0, 20px 20px;
+       
     }
 
     main {
         
         width: 80%;
         margin: 3em auto;
-        padding-top: 2em;
+        
         border-radius: 2em;
         box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
         background-color: rgba(221, 231, 229, 1);
 
     }
-    .foto {
+   /*  .foto {
         width: 40%;
 
+    } */
+    .foto {
+       
+        
+        margin: 0;
+        
+        width: 100%;
+        height: 50em;
+        object-fit: cover;
+        opacity: 90%;
+        
+    
+        border-radius: 2em 2em 0 0;
+        box-shadow: none;
+       
     }
+    .foto:hover {
+        margin: 3em auto 0;
+        box-shadow: none;
+        filter: blur(5px);
+
+    }
+    header {
+        position: relative;
+    }
+
+    h1 {
+        color: #17c9d4;
+        font-weight: bold;
+        position: absolute;
+        bottom: 2em;
+        left: 1.5em;
+        text-align: left;
+        font-size: 3em;
+        
+    }
+    .WebDev {
+        color: #129CA5;
+        font-size: 0.7em;
+        line-height: 1.5em;
+    }
+  
+
     .menu {
+        margin-top: 0;
         
         display: flex;
         justify-content: space-between;
         
     }
     .menu a {
-        width: 24.8%;
+        width: 25%;
     }
     .menu div {
         text-align: center;
     }
+    
+    .styleAbsch {
+        padding: 1.5em 3em 0;
+      
+    
+    }
+    .formular {
+        padding: 3em;
+    }
+  
+    
 }
 @media screen and (min-width: 769px) {
     main {
