@@ -3,6 +3,11 @@ $b-color:rgba(221, 231, 229, .5);
 $petrol: rgba(11, 91, 97, 1);
 $petrol2: #129CA5;
 $turkis: #17C9D4;
+$hell: #DDE7E5;
+
+/* Variablen font */
+$font: 'Roboto', sans-serif;
+$fontHead: 'Archivo', sans-serif;
 
 
 
@@ -29,7 +34,7 @@ body {
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: $font;
     color: $petrol;
     font-weight: bold;
 
@@ -39,31 +44,22 @@ body {
 .foto {
     display: block;
     margin: 3em auto 0.5em;
-    /*  width: 250px; */
     width: 60%;
-
     border-radius: 50%;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 
     &:hover {
-
         margin: 3.5em auto 1.5em;
         box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
-
     }
-
 }
 
 
 
 h1,
 h2 {
-    font-family: 'Archivo', sans-serif;
-
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: $fontHead;    
     text-align: center;
-
-
 }
 
 h1 {
@@ -71,7 +67,6 @@ h1 {
     width: max-content;
     margin: 0 auto;
     font-size: 1.7em;
-
 }
 
 
@@ -90,7 +85,7 @@ h1 {
 
     div {
         width: 100%;
-        color: #DDE7E5;
+        color: $hell;
         font-size: larger;
         font-weight: bold;
         background-color: $petrol2;
@@ -100,19 +95,9 @@ h1 {
         &:hover {
             background-color: $petrol;
             color: white;
-    
         }
-
     }
-
-    
-
 }
-
-
-
-
-
 
 
 .styleAbsch {
@@ -121,9 +106,7 @@ h1 {
 
 }
 
-
-
-
+/* ....lebenslauf..... */
 
 #lebenslauf div {
 
@@ -157,26 +140,27 @@ h1 {
 /*........ portfolio ...........................*/
 
 
-#portfolio img {
+#portfolio 
+
+    p {
+        margin-bottom: 1em;
+        text-align: center;
+        }
+
+    img {
     width: 100%;
     display: block;
     margin: 2em 0 1em;
     border-radius: 3%;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 
-    &:hover {
+        &:hover {
 
-        margin: 2.5em 0 0.5em;
-        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+            margin: 2.5em 0 0.5em;
+            box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 
-    }
-    p {
-        margin-bottom: 1em;
-        text-align: center;
-    }
+        }
 }
-
-
 
 
 
@@ -265,6 +249,7 @@ h1 {
         margin-top: 1em;
         margin-bottom: 1em;
     }
+
     a {
 
         font-size: large;
@@ -274,6 +259,7 @@ h1 {
         text-decoration: none;
         color: $petrol;
     }
+
     i {
         font-size: xx-large;
         height: 1em;
@@ -282,13 +268,15 @@ h1 {
         color: $turkis;
         vertical-align: middle;
         /*  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); */
-    
+
     }
+
     div {
         padding-left: 1.5em;
+
         &:hover {
             font-size: larger;
-        
+
         }
     }
 
@@ -307,15 +295,18 @@ h1 {
 
     margin-bottom: 1em;
     padding: 1.5em;
+
     h2 {
 
         margin-bottom: 1em;
     }
+
     label {
         display: block;
         margin-left: 0.5em;
         margin-bottom: 0.5em;
     }
+
     input {
         width: 100%;
         height: 2em;
@@ -323,8 +314,9 @@ h1 {
         margin-bottom: 1em;
         border: none;
         border-radius: 3px;
-    
+
     }
+
     textarea {
         width: 100%;
         height: 100px;
@@ -332,6 +324,7 @@ h1 {
         border: none;
         border-radius: 3px;
     }
+
     button {
         margin: 1em 0 1em;
         padding: 0.5em;
@@ -341,15 +334,16 @@ h1 {
         background-color: $petrol2;
         color: white;
         font-weight: bold;
+
         &:hover {
             margin: 1.3em 0 0.7em;
             box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
             background-color: $petrol;
         }
-        
+
     }
-    
-    
+
+
 }
 
 
@@ -370,14 +364,13 @@ h1 {
 
         width: 80%;
         margin: 3em auto;
-
         border-radius: 2em;
         box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
         background-color: rgba(221, 231, 229, 1);
 
     }
 
-   
+
     .foto {
 
         margin: 0;
@@ -387,16 +380,17 @@ h1 {
         opacity: 90%;
         border-radius: 2em 2em 0 0;
         box-shadow: none;
+
         &:hover {
             margin: 3em auto 0;
             box-shadow: none;
             filter: blur(5px);
-    
+
         }
 
     }
 
-  
+
     header {
         position: relative;
     }
@@ -423,16 +417,18 @@ h1 {
         margin-top: 0;
         display: flex;
         justify-content: space-between;
+
         a {
             width: 25%;
         }
+
         div {
             text-align: center;
         }
 
     }
 
-   
+
 
     .styleAbsch {
         padding: 1.5em 3em 0;
