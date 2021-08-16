@@ -1,5 +1,20 @@
 {
-  "dependencies": {
-    "bootstrap-icons": "^1.5.0"
-  }
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portforlio",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass scss/style.scss css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlancaDomingo/portfolio.git"
+  },
+  "author": "ich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlancaDomingo/portfolio/issues"
+  },
+  "homepage": "https://github.com/BlancaDomingo/portfolio#readme"
 }
