@@ -1,3 +1,5 @@
+/* Variablen Farben*/
+/* scss */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -43,7 +45,7 @@ h1 {
 }
 
 .WebDev {
-  color: #129ca5;
+  color: #129CA5;
   font-size: smaller;
 }
 
@@ -62,7 +64,7 @@ h1 {
   margin-top: 0.1em;
   padding: 0.5em 1.5em;
 }
-.menu:hover {
+.menu div:hover {
   background-color: #0b5b61;
   color: white;
 }
@@ -122,7 +124,7 @@ h1 {
   padding: 0;
   margin: 0.75em 1em 0.75em 0;
   border-radius: 0.25em;
-  border: cadetblue 1px solid;
+  border: #0b5b61 1px solid;
 }
 
 .skillsContHtm {
@@ -287,7 +289,7 @@ h1 {
   }
 
   h1 {
-    color: #17c9d4;
+    color: #17C9D4;
     font-weight: bold;
     position: absolute;
     bottom: 2em;

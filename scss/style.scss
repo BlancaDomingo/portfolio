@@ -1,3 +1,16 @@
+/* Variablen Farben*/
+$b-color:rgba(221, 231, 229, .5);
+$petrol: rgba(11, 91, 97, 1);
+$petrol2: #129CA5;
+$turkis: #17C9D4;
+
+
+
+
+
+
+/* scss */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,14 +23,14 @@
 body {
 
 
-    background-color: rgba(221, 231, 229, .5);
-    background-image: radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229, .5) 99%),
-        radial-gradient(closest-side, transparent 98%, rgba(221, 231, 229, .5) 99%);
+    background-color: $b-color;
+    background-image: radial-gradient(closest-side, transparent 98%, $b-color 99%),
+        radial-gradient(closest-side, transparent 98%, $b-color 99%);
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
 
     font-family: 'Roboto', sans-serif;
-    color: rgba(11, 91, 97, 1);
+    color: $petrol;
     font-weight: bold;
 
 
@@ -64,7 +77,7 @@ h1 {
 
 
 .WebDev {
-    color: rgba(18, 156, 165, 1);
+    color: $petrol2;
     font-size: smaller;
 }
 
@@ -80,18 +93,19 @@ h1 {
         color: #DDE7E5;
         font-size: larger;
         font-weight: bold;
-        background-color: #129CA5;
-
+        background-color: $petrol2;
         margin-top: 0.1em;
         padding: 0.5em 1.5em;
 
+        &:hover {
+            background-color: $petrol;
+            color: white;
+    
+        }
+
     }
 
-    &:hover {
-        background-color: rgba(11, 91, 97, 1);
-        color: white;
-
-    }
+    
 
 }
 
@@ -121,12 +135,12 @@ h1 {
     }
 
     span {
-        color: rgba(11, 91, 97, 1);
+        color: $petrol;
     }
 
     a {
         text-decoration: none;
-        color: #129CA5;
+        color: $petrol2;
     }
 
     &:hover {
@@ -180,7 +194,7 @@ h1 {
     padding: 0;
     margin: 0.75em 1em 0.75em 0;
     border-radius: 0.25em;
-    border: cadetblue 1px solid;
+    border: $petrol 1px solid;
 }
 
 .skillsContHtm {
@@ -188,7 +202,7 @@ h1 {
     width: 80%;
     height: 100%;
     border-radius: 0.25em;
-    background-color: #17C9D4;
+    background-color: $turkis;
 }
 
 .skillsContCss {
@@ -196,7 +210,7 @@ h1 {
     width: 75%;
     height: 100%;
     border-radius: 0.25em;
-    background-color: #17C9D4;
+    background-color: $turkis;
 }
 
 .skillsContJav {
@@ -204,7 +218,7 @@ h1 {
     width: 90%;
     height: 100%;
     border-radius: 0.25em;
-    background-color: #17C9D4;
+    background-color: $turkis;
 }
 
 .skillsContRea {
@@ -212,7 +226,7 @@ h1 {
     width: 70%;
     height: 100%;
     border-radius: 0.25em;
-    background-color: #17C9D4;
+    background-color: $turkis;
 }
 
 .skillsContPhp {
@@ -220,7 +234,7 @@ h1 {
     width: 95%;
     height: 100%;
     border-radius: 0.25em;
-    background-color: #17C9D4;
+    background-color: $turkis;
 }
 
 .skillsContSym {
@@ -228,7 +242,7 @@ h1 {
     width: 90%;
     height: 100%;
     border-radius: 0.25em;
-    background-color: #17C9D4;
+    background-color: $turkis;
 }
 
 .skillsContPho {
@@ -236,7 +250,7 @@ h1 {
     width: 85%;
     height: 100%;
     border-radius: 0.25em;
-    background-color: #17C9D4;
+    background-color: $turkis;
 }
 
 
@@ -258,14 +272,14 @@ h1 {
         /* margin: 20px 30px 20px; */
         margin: 1em 1.5em 1em;
         text-decoration: none;
-        color: rgba(11, 91, 97, 1);
+        color: $petrol;
     }
     i {
         font-size: xx-large;
         height: 1em;
         margin: 0.25em;
         text-decoration: none;
-        color: #17C9D4;
+        color: $turkis;
         vertical-align: middle;
         /*  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); */
     
@@ -324,13 +338,13 @@ h1 {
         border: none;
         border-radius: 3px;
         box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
-        background-color: #129CA5;
+        background-color: $petrol2;
         color: white;
         font-weight: bold;
         &:hover {
             margin: 1.3em 0 0.7em;
             box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
-            background-color: rgba(11, 91, 97, 1);
+            background-color: $petrol;
         }
         
     }
@@ -388,7 +402,7 @@ h1 {
     }
 
     h1 {
-        color: #17c9d4;
+        color: $turkis;
         font-weight: bold;
         position: absolute;
         bottom: 2em;
