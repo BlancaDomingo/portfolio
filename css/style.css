@@ -1,5 +1,10 @@
+@charset "UTF-8";
+/* so können wir benutzen die neueste version von map, für variablen listen, sino map-get */
+/* neue version @use "sass:map";........map.get....alte version map-get */
 /* Variablen Farben*/
 /* Variablen font */
+/* Variablen Listen */
+/* mixin */
 /* scss */
 * {
   box-sizing: border-box;
