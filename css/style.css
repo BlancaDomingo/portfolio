@@ -80,6 +80,9 @@ h1 {
 }
 
 /* ....lebenslauf..... */
+#lebenslauf {
+  margin-bottom: 2em;
+}
 #lebenslauf div {
   margin-top: 1em;
 }
@@ -102,6 +105,9 @@ h1 {
 }
 
 /*........ portfolio ...........................*/
+#portfolio {
+  margin-bottom: 2em;
+}
 #portfolio p {
   margin-bottom: 1em;
   text-align: center;
@@ -119,6 +125,9 @@ h1 {
 }
 
 /* .................skills........... */
+#skills {
+  margin-bottom: 2em;
+}
 #skills h2 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -194,7 +203,6 @@ h1 {
   margin-bottom: 2em;
 }
 #kontakt h2 {
-  margin-top: 1em;
   margin-bottom: 1em;
 }
 #kontakt a {
@@ -228,6 +236,7 @@ h1 {
 }
 .formular h2 {
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 .formular label {
   display: block;
