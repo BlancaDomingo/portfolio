@@ -17,8 +17,7 @@ $fontHead: 'Archivo',
 sans-serif;
 
 /* Variablen Listen */
-$breakpoints: (
-    "tablet": 577px,
+$breakpoints: ("tablet": 577px,
     "desktop": 769px,
 );
 
@@ -37,25 +36,20 @@ $breakpoints: (
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    scroll-behavior: smooth;
-
 }
 
 
 body {
-
-
     background-color: $b-color;
     background-image: radial-gradient(closest-side, transparent 98%, $b-color 99%),
         radial-gradient(closest-side, transparent 98%, $b-color 99%);
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
-
     font-family: $font;
     color: $petrol;
     font-weight: bold;
-
-
+    scroll-behavior: smooth;
+    transition: all .5s;
 }
 
 .foto {
@@ -125,13 +119,16 @@ h1 {
 
 /* ....lebenslauf..... */
 
-#lebenslauf div {
+#lebenslauf {
 
-    margin-top: 1em;
+    div {
 
-    &:last-of-type {
-        margin: 1.5em auto 0;
-        text-align: center;
+        margin-top: 1em;
+
+        &:last-of-type {
+            margin: 1.5em auto 0;
+            text-align: center;
+        }
     }
 
     span {
@@ -141,10 +138,10 @@ h1 {
     a {
         text-decoration: none;
         color: $petrol2;
-    }
 
-    &:hover {
-        color: white;
+        &:hover {
+            color: white;
+        }
     }
 
     p {
@@ -157,23 +154,27 @@ h1 {
 /*........ portfolio ...........................*/
 
 
-#portfolio p {
-    margin-bottom: 1em;
-    text-align: center;
+#portfolio {
+
+    p {
+        margin-bottom: 1em;
+        text-align: center;
     }
 
     img {
-      width: 100%;
-    display: block;
-    margin: 2em 0 1em;
-    border-radius: 3%;
-    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
-    
-    &:hover {
+        width: 100%;
+        display: block;
+        margin: 2em 0 1em;
+        border-radius: 3%;
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 
-        margin: 2.5em 0 0.5em;
-        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 
+        &:hover {
+
+            margin: 2.5em 0 0.5em;
+            box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+
+        }
     }
 
 }
@@ -203,7 +204,12 @@ h1 {
 }
 
 .skillsContCss {
-    width: 75%;
+    width: 90%;
+    @include innBar;
+}
+
+.skillsContBoo {
+    width: 70%;
     @include innBar;
 }
 
@@ -423,13 +429,27 @@ h1 {
 
     }
 
-
-
     .styleAbsch {
         padding: 1.5em 3em 0;
 
 
     }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+    .flexSk1,
+    .flexSk2 {
+        width: 100%;
+    }
+
+    .flex2 {
+        margin-left: 1em;
+    }
+
+
+
 
     .formular {
         padding: 3em;

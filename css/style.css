@@ -10,7 +10,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -21,6 +20,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #0b5b61;
   font-weight: bold;
+  scroll-behavior: smooth;
+  transition: all 0.5s;
 }
 
 .foto {
@@ -86,17 +87,17 @@ h1 {
   margin: 1.5em auto 0;
   text-align: center;
 }
-#lebenslauf div span {
+#lebenslauf span {
   color: #0b5b61;
 }
-#lebenslauf div a {
+#lebenslauf a {
   text-decoration: none;
   color: #129CA5;
 }
-#lebenslauf div:hover {
+#lebenslauf a:hover {
   color: white;
 }
-#lebenslauf div p {
+#lebenslauf p {
   color: grey;
 }
 
@@ -105,15 +106,14 @@ h1 {
   margin-bottom: 1em;
   text-align: center;
 }
-
-img {
+#portfolio img {
   width: 100%;
   display: block;
   margin: 2em 0 1em;
   border-radius: 3%;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 }
-img:hover {
+#portfolio img:hover {
   margin: 2.5em 0 0.5em;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
@@ -141,7 +141,14 @@ img:hover {
 }
 
 .skillsContCss {
-  width: 75%;
+  width: 90%;
+  height: 100%;
+  border-radius: 0.25em;
+  background-color: #17C9D4;
+}
+
+.skillsContBoo {
+  width: 70%;
   height: 100%;
   border-radius: 0.25em;
   background-color: #17C9D4;
@@ -324,6 +331,20 @@ img:hover {
 
   .styleAbsch {
     padding: 1.5em 3em 0;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexSk1,
+.flexSk2 {
+    width: 100%;
+  }
+
+  .flex2 {
+    margin-left: 1em;
   }
 
   .formular {
