@@ -2,6 +2,11 @@
 /* so können wir benutzen die neueste version von map, für variablen listen, sino map-get */
 /* neue version @use "sass:map";........map.get....alte version map-get */
 /* Variablen Farben*/
+/* $b-color:rgba(221, 231, 229, .5);
+$petrol: #1A403C;
+$petrol2: #43736A;
+$turkis: #7ABFB8;
+$hell: #F2F2F2;  */
 /* Variablen font */
 /* Variablen Listen */
 /* mixin */
@@ -21,7 +26,7 @@ body {
   color: #0b5b61;
   font-weight: bold;
   scroll-behavior: smooth;
-  transition: all 0.5s;
+  transition: all 0.7s;
 }
 
 .foto {
@@ -299,6 +304,7 @@ h1 {
     opacity: 90%;
     border-radius: 2em 2em 0 0;
     box-shadow: none;
+    opacity: 0.2;
   }
   .foto:hover {
     margin: 3em auto 0;
@@ -311,7 +317,6 @@ h1 {
   }
 
   h1 {
-    color: #17C9D4;
     font-weight: bold;
     position: absolute;
     bottom: 2em;
@@ -321,12 +326,13 @@ h1 {
   }
 
   .WebDev {
-    color: #dde7e5;
     font-size: 0.7em;
     line-height: 1.5em;
   }
 
   .menu {
+    /* position: sticky;
+    top: 0; */
     margin-top: 0;
     display: flex;
     justify-content: space-between;

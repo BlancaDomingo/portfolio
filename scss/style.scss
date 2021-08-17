@@ -8,7 +8,17 @@ $b-color:rgba(221, 231, 229, .5);
 $petrol: rgba(11, 91, 97, 1);
 $petrol2: #129CA5;
 $turkis: #17C9D4;
+$hTurkis: #8FD9D1;
 $hell: #DDE7E5;
+
+/* $b-color:rgba(221, 231, 229, .5);
+$petrol: #1A403C;
+$petrol2: #43736A;
+$turkis: #7ABFB8;
+$hell: #F2F2F2;  */
+
+
+
 
 /* Variablen font */
 $font: 'Roboto',
@@ -49,7 +59,7 @@ body {
     color: $petrol;
     font-weight: bold;
     scroll-behavior: smooth;
-    transition: all .5s;
+    transition: all .7s;
 }
 
 .foto {
@@ -57,7 +67,7 @@ body {
     margin: 3em auto 0.5em;
     width: 60%;
     border-radius: 50%;
-  
+
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
 
     &:hover {
@@ -91,11 +101,14 @@ h1 {
 .menu {
     margin-top: 2em;
 
+
+
     a {
         text-decoration: none;
     }
 
     div {
+
         width: 100%;
         color: $hell;
         font-size: larger;
@@ -140,7 +153,7 @@ h1 {
     a {
         text-decoration: none;
         color: $petrol2;
-       
+
 
         &:hover {
             color: white;
@@ -190,10 +203,11 @@ h1 {
 
 #skills {
     margin-bottom: 2em;
+
     h2 {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
 }
 
 .skillsCont {
@@ -254,7 +268,7 @@ h1 {
     margin-bottom: 2em;
 
     h2 {
-        
+
         margin-bottom: 1em;
     }
 
@@ -308,7 +322,7 @@ h1 {
 
         margin-bottom: 1em;
         margin-top: 1em;
-      
+
     }
 
     label {
@@ -378,6 +392,7 @@ h1 {
         box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2), 8px 8px 22px rgba(0, 0, 0, 0.19);
         background-color: rgba(221, 231, 229, 1);
 
+
     }
 
 
@@ -390,6 +405,9 @@ h1 {
         opacity: 90%;
         border-radius: 2em 2em 0 0;
         box-shadow: none;
+        opacity: 0.2;
+
+
 
         &:hover {
             margin: 3em auto 0;
@@ -406,7 +424,7 @@ h1 {
     }
 
     h1 {
-        color: $turkis;
+
         font-weight: bold;
         position: absolute;
         bottom: 2em;
@@ -417,16 +435,22 @@ h1 {
     }
 
     .WebDev {
-        color: #dde7e5;
+
         font-size: 0.7em;
         line-height: 1.5em;
     }
 
 
+
+
     .menu {
+        /* position: sticky;
+        top: 0; */
         margin-top: 0;
         display: flex;
         justify-content: space-between;
+
+
 
         a {
             width: 25%;
@@ -438,9 +462,10 @@ h1 {
 
     }
 
+
     .styleAbsch {
         padding: 1.5em 3em 0;
-       
+
 
 
     }
@@ -449,6 +474,7 @@ h1 {
         display: flex;
         justify-content: center;
     }
+
     .flexSk1,
     .flexSk2 {
         width: 100%;
